@@ -24,4 +24,10 @@ struct FakeData {
         "f5",
         "f6"
     ]
+    
+    static let sponsorCakeImages: [Image] = [
+        Image("sp1"),
+        Image("sp2"),
+        Image("sp3")
+    ]
 }

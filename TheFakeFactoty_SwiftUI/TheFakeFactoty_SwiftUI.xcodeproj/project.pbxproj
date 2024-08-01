@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1830332F2C5BE7B700C180A6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830332E2C5BE7B700C180A6 /* HomeViewModel.swift */; };
 		18615CD62C5B18640010F89D /* TheFakeFactoty_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18615CD52C5B18640010F89D /* TheFakeFactoty_SwiftUIApp.swift */; };
 		18615CD82C5B18640010F89D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18615CD72C5B18640010F89D /* ContentView.swift */; };
 		18615CDA2C5B18660010F89D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18615CD92C5B18660010F89D /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1830332E2C5BE7B700C180A6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		18615CD22C5B18640010F89D /* TheFakeFactoty_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheFakeFactoty_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18615CD52C5B18640010F89D /* TheFakeFactoty_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFakeFactoty_SwiftUIApp.swift; sourceTree = "<group>"; };
 		18615CD72C5B18640010F89D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				18615CED2C5B1EF00010F89D /* HomeView.swift */,
 				18615CF12C5B2C4E0010F89D /* CircleCakeGridView.swift */,
+				1830332E2C5BE7B700C180A6 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				18615CF22C5B2C4E0010F89D /* CircleCakeGridView.swift in Sources */,
 				18615CF02C5B21A40010F89D /* FakeData.swift in Sources */,
 				18615CEB2C5B1CFF0010F89D /* CustomViewModifiers.swift in Sources */,
+				1830332F2C5BE7B700C180A6 /* HomeViewModel.swift in Sources */,
 				18615CD82C5B18640010F89D /* ContentView.swift in Sources */,
 				18615CE82C5B193D0010F89D /* LocationPermissionView.swift in Sources */,
 				18615CEE2C5B1EF00010F89D /* HomeView.swift in Sources */,

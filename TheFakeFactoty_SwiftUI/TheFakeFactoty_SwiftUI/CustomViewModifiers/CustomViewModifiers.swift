@@ -16,11 +16,14 @@ extension View {
 struct RoundedButton: ViewModifier {
     func body(content: Content) -> some View {
         content
+            .frame(width: 96, height: 8)
             .foregroundStyle(.customPurple)
             .padding()
-            .overlay( RoundedRectangle(cornerRadius: 21.0)
-                .stroke(lineWidth: 1.0)
-                .foregroundStyle(.customGray)
+            .overlay(
+                RoundedRectangle(cornerRadius: 21.0)
+                    .stroke(lineWidth: 1)
+                    .foregroundStyle(.customGray)
             )
     }
 }
+

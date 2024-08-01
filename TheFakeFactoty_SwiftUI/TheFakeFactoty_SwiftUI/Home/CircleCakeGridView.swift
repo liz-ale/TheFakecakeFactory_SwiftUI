@@ -11,6 +11,21 @@ struct CircleCakeGridView: View {
     private let images = FakeData.circularCakeImages
     
     var body: some View {
+        cakeGrid
+    }
+}
+
+private extension CircleCakeGridView {
+    
+    var cakeRows: (upper: [String], bottom: [String]) {
+        let mid = images.count / 2
+        let firstHalf = images[0..<mid]
+        let secondHalf = images[mid..<images.count]
+        return (Array(firstHalf), Array(secondHalf))
+        
+    }
+    
+    var cakeGrid: some View {
         ZStack {
             Color.customPink
                 .ignoresSafeArea()
@@ -30,28 +45,11 @@ struct CircleCakeGridView: View {
             }
         }
     }
-}
-
-private extension CircleCakeGridView {
-    
-    var cakeRows: (upper: [String], bottom: [String]) {
-        let mid = images.count / 2
-        let firstHalf = images[0..<mid]
-        let secondHalf = images[mid..<images.count]
-        return (Array(firstHalf), Array(secondHalf))
-        
-    }
-    
-    var cakeGrid: some View {
-        Grid() {
-            
-        }
-    }
     
     func circularCake(with image: Image) -> some View {
         image
             .resizable()
-            .frame(width: 100, height: 100)
+            .frame(width: 108, height: 108)
             .scaledToFit()
             .overlay(
                 Circle()
